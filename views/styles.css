@@ -1,0 +1,181 @@
+
+.cities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.city-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+.city-card:hover {
+    transform: scale(1.05);
+}
+
+.city-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.city-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.city-card .landmarks {
+    font-style: italic;
+}
+
+.city-card .details {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .city-card {
+        width: 100%;
+    }
+}
+.header h1 {
+    font-size: 40px; /* Adjust font size as needed */
+    margin: 0;
+    background: -webkit-linear-gradient(#ff6e7f, #55ddff); /* Gradient background for colorful text */
+    -webkit-background-clip: text; /* Apply gradient as text color */
+    -webkit-text-fill-color: transparent; /* Make original text transparent */
+    letter-spacing: 2px; /* Add letter spacing for emphasis */
+  }
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+   
+}
+
+.header {
+    background-color: #827d7d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.header-btn, .sign-in-btn {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.header-btn:hover, .sign-in-btn:hover {
+    background-color: #ddd;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-btn {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.card {
+    width: 350px; /* Set the width of the card */
+    margin-bottom: 20px; /* Add some margin between cards */
+    border-radius: 15px; /* Add rounded corners to the card */
+    border: 1px solid #e1e1e1; /* Add a border to the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for depth */
+    
+}
+
+.card-title {
+    font-size: 24px; /* Increase font size of the card title */
+}
+
+.card-body {
+    padding: 20px; /* Add padding inside the card body */
+}
+
+.card-body ul {
+    margin: 0; /* Remove default margin from unordered list */
+}
+
+.card-body ul li {
+    margin-bottom: 10px; /* Add margin between list items */
+}
+
+
+.city-image {
+    height: 200px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.country-flag {
+    display: inline-block;
+    width: 40px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensure the image fits within the dimensions */
+  }
+
+  .para{
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     font-family:cursive;
+
+  }
+
+  #loginFormContainer .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: #000; /* Close button color */
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#loginFormContainer .close-btn:hover {
+    color: #fff; /* Change color on hover */
+    background-color: #dc3545; /* Change background color on hover */
+    
+}
+
